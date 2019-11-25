@@ -126,6 +126,7 @@ object P1_Abatracting_over_Executing {
   }
 
   object IO {
+    // 看来这个是懒加载,thunk代码没有立即执行,所以需要我们手动去触发计算逻辑
     def apply[A](a: => A): IO[A] = new IO(() => a)
   }
 
