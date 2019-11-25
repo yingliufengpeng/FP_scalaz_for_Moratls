@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="functional_programming_for_mortals" />
+    <profile name="sbt 2" modules="Functional_Programming_for_Mortals">
+      <option name="higherKinds" value="true" />
+      <parameters>
+        <parameter value="-language:_" />
+        <parameter value="-Ypartial-unification" />
+        <parameter value="-Xfatal-warnings" />
+      </parameters>
+      <plugins>
+        <plugin path="C:\Users\Abner\AppData\Local\Coursier\cache\v1\https\repo.huaweicloud.com\repository\maven\org\spire-math\kind-projector_2.12\0.9.7\kind-projector_2.12-0.9.7.jar" />
+        <plugin path="C:\Users\Abner\AppData\Local\Coursier\cache\v1\https\repo.huaweicloud.com\repository\maven\org\scalamacros\paradise_2.12.6\2.1.1\paradise_2.12.6-2.1.1.jar" />
+      </plugins>
+    </profile>
+  </component>
+</project>
