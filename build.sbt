@@ -16,5 +16,8 @@ libraryDependencies ++= Seq(
   "org.scalaz"           %% "scalaz-core"    % "7.2.26"
 )
 
+libraryDependencies += "org.scala-lang" % "scala-reflect" % scalaVersion.value
+
+
 addCompilerPlugin("org.spire-math" %% "kind-projector" % "0.9.7")
 addCompilerPlugin("org.scalamacros" % "paradise" % "2.1.1" cross CrossVersion.full)
